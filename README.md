@@ -14,7 +14,7 @@ Given a user makes a `POST` request to `https://conversion-service/translate_jso
 {
   "name": "John Smith",
   "age": "27",
-  "lovesApplyBoard": "true",
+  "trueValue": "true",
   "favoriteColors": ["green", "blue", "red", "4"],
   "favoriteNumber": "null",
   "birth": {
@@ -29,7 +29,7 @@ The user expects to receive a response translated as follows
 {
   "name": "John Smith",
   "age": 27,
-  "lovesApplyBoard": true,
+  "trueValue": true,
   "favoriteColors": ["green", "blue", "red", 4],
   "favoriteNumber": null,
   "birth": {
